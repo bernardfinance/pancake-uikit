@@ -71,6 +71,8 @@ const Menu: React.FC<NavProps> = ({
   setLang,
   currentLang,
   cakePriceUsd,
+  token2PriceUsd,
+  token3PriceUsd,
   links,
   profile,
   children,
@@ -138,6 +140,8 @@ const Menu: React.FC<NavProps> = ({
           setLang={setLang}
           currentLang={currentLang}
           cakePriceUsd={cakePriceUsd}
+          token2PriceUsd={cakePriceUsd}
+          token3PriceUsd={cakePriceUsd}
           pushNav={setIsPushed}
           links={links}
         />
